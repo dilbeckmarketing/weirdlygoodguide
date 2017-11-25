@@ -1,0 +1,106 @@
+{
+  "settings": {
+    "name": "Weirdly Good Guide",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "unicore",
+      "title": "Unicore",
+      "styling": {
+        "primaryColor": "#29d9c2",
+        "successColor": "#7ac673",
+        "infoColor": "#27aae0",
+        "warningColor": "#faaf40",
+        "dangerColor": "#f97352",
+        "titleFont": "Montserrat",
+        "textFont": "Raleway",
+        "isSquareButtons": false
+      }
+    },
+    "favicon": "",
+    "noImageResize": "",
+    "versionFirst": "4.2.3",
+    "uniqCompNum": 5,
+    "versionPublish": "4.2.3"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showForm": true,
+            "paddingTop": "1",
+            "paddingBottom": 2,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/img-2000x1333.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75,
+            "showIcons": true,
+            "iconsColor": "#fff",
+            "icon1": "fa-bolt",
+            "icon2": "fa-magnet"
+          },
+          "title": "GET GUIDE NOW!",
+          "title1": "Weirdly Good Guide to Real Estate",
+          "title2": "10 STEPS TO YOUR FIRST TRANSACTION",
+          "title3": "LEARN THE TRICKS OF TOP PRODUCERS",
+          "text1": "Set yourself up for success in your first year, with our step by step guide to building your business. Uncover the 10 most important steps every agent needs to take to get weirdly good at real estate in their first year.",
+          "text2": "Save yourself some time and develop the habits that have made our top producing agents nationally ranked. &nbsp;Learn how to find business, live your brand, and manage your time like a rockstar.",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-lg btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">GET GUIDE</a>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "ashley.ray@dilbeck.com",
+            "alerts": {
+              "success": "So...you wanna be \"Weridly Good\" at real estate? We want you to too! \n\nFind the guide here: www.dilbeck.com/weridlygoodguide\n\nStill have more questions? No worries! We got you covered! Give us a call at 999-999-9999 or email questions@dilbeck.com and we can help to answer any answer any of the burning questions!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "First Name",
+                "customTitle": "First Name"
+              },
+              "lastName": {
+                "visible": true,
+                "title": "Last Name",
+                "customTitle": "Last Name"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email Address",
+                "customTitle": "Email Address"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone No.",
+                "customTitle": "Phone No."
+              }
+            }
+          },
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-0"
+        }
+      ]
+    }
+  }
+}
