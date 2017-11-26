@@ -16,10 +16,10 @@
         "isSquareButtons": false
       }
     },
-    "favicon": "",
+    "favicon": "@PROJECT_PATH@/assets/images/favicon-16x16-16x16.png",
     "noImageResize": "",
     "versionFirst": "4.2.3",
-    "uniqCompNum": 5,
+    "uniqCompNum": 18,
     "versionPublish": "4.2.3"
   },
   "pages": {
@@ -51,19 +51,19 @@
             },
             "overlay": true,
             "overlayColor": "#151515",
-            "overlayOpacity": 0.75,
+            "overlayOpacity": "0.7",
             "showIcons": true,
             "iconsColor": "#fff",
-            "icon1": "fa-bolt",
-            "icon2": "fa-magnet"
+            "icon1": "Example of check fa-check",
+            "icon2": "Example of check fa-check"
           },
-          "title": "GET GUIDE NOW!",
+          "title": "GET THE GUIDE",
           "title1": "Weirdly Good Guide to Real Estate",
-          "title2": "10 STEPS TO YOUR FIRST TRANSACTION",
-          "title3": "LEARN THE TRICKS OF TOP PRODUCERS",
-          "text1": "Set yourself up for success in your first year, with our step by step guide to building your business. Uncover the 10 most important steps every agent needs to take to get weirdly good at real estate in their first year.",
-          "text2": "Save yourself some time and develop the habits that have made our top producing agents nationally ranked. &nbsp;Learn how to find business, live your brand, and manage your time like a rockstar.",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-lg btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">GET GUIDE</a>",
+          "title2": "LEARN THE TRICKS OF TOP PRODUCERS",
+          "title3": "BECOME A LOCAL AUTHORITY",
+          "text1": "Save yourself some time and develop the habits that have made our top producing agents nationally ranked.  Learn how to find business, live your brand, and manage your time like a rockstar.",
+          "text2": "A real estate agent is only as good as their information! Learn how to leverage your online presence and become your neighborhood's trusted real estate insider. Don't know where to start? No worries. We have a full list of online resources to get you in the know day one.&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-lg btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">WeirDLY goOD AWAITS!</a>",
           "form": {
             "title": "MESSAGE",
             "action": "ashley.ray@dilbeck.com",
@@ -99,6 +99,64 @@
           ],
           "_name": "header1",
           "_anchor": "header1-0"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#333",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5,
+            "googleMap": {
+              "address": "1030 Foothill Blvd.\nLa Canada, CA 91011",
+              "placeId": "ChIJxQeTkv7pwoARwqJrjOQnSOg",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "title1": "DILBECK REAL ESTATE",
+          "text1": " A family owned real estate company helping neighbors create new beginnings and lasting memories throughout SoCal since 1950. ",
+          "icons": "<a class=\"fa\" data-app-btn=\"true\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\"><i class=\"fa fa-linkedin\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"fa fa-facebook\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"fa fa-twitter\"></i></a>   <a class=\"fa\" data-app-btn=\"true\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"fa fa-instagram\"></i></a> ",
+          "text2": "Working Hours:<br>Mon - Fri &nbsp; 9AM - 5PM",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-primary btn-ico\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Send Message<i class=\"fa fa-paper-plane-o\"></i></a>",
+          "title": "GOT A QUESTION? JUST ASK!",
+          "form": {
+            "action": "ashley.ray@dilbeck.com",
+            "alerts": {
+              "success": "Thanks for reaching out! One of our real estate wizards will be back at you shortly!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Your Name here"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email Address here"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Ask away! Just say hi! Or bother us! We don't mind, no, really!"
+              }
+            }
+          },
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts4",
+          "_anchor": "contacts4-h"
         }
       ]
     }
