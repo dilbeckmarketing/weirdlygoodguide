@@ -20,8 +20,9 @@
     "noImageResize": "",
     "versionFirst": "4.2.3",
     "uniqCompNum": 18,
-    "versionPublish": "4.5.2",
-    "path": "@PROJECT_PATH@"
+    "versionPublish": "4.6.7",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -60,10 +61,10 @@
           },
           "title": "GET THE GUIDE",
           "title1": "Weirdly Good Guide to Success in Real Estate",
-          "title2": "LEARN THE TRICKS OF TOP PRODUCERS",
+          "title2": "discover your first steps to becoming a successful realtor",
           "title3": "BECOME A LOCAL AUTHORITY",
-          "text1": "Save yourself some time and develop the habits that have made our top producing agents nationally ranked.  Learn how to find business, live your brand, and manage your time like a rockstar.",
-          "text2": "A real estate agent is only as good as their information! Learn how to leverage your online presence and become your neighborhood's trusted real estate insider. Don't know where to start? No worries. We have a full list of online resources to get you in the know day one.&nbsp;",
+          "text1": "Save yourself some time and energy and focus on the tasks that will yield the best results! Learn the steps to get your business started from Day One.",
+          "text2": "A real estate agent is only as good as their information! Learn how to leverage your online presence and become your neighborhood's trusted real estate insider.",
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-lg btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">WeirDLY goOD AWAITS!</a>",
           "form": {
             "title": "MESSAGE",
